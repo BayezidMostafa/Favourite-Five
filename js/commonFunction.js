@@ -8,3 +8,9 @@ function countPlayer(elementId){
         return false;
     }
 }
+function getInputFieldValueById(inputId) {
+    const inputElement = document.getElementById(inputId);
+    const inputElementValueString = inputElement.value;
+    const inputElementValue = parseInt(inputElementValueString);
+    return inputElementValue;
+}
