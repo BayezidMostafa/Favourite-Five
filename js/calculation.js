@@ -2,7 +2,7 @@
 document.getElementById('calculate-button').addEventListener('click', function () {
     const listCountElement = document.getElementsByTagName('li');
     const listCountNumber = listCountElement.length;
-    const playerBudget = getInputFieldValueById('per-playe-cost');
+    const playerBudget = getInputFieldValueById('per-player-cost');
     if (isNaN(playerBudget)) {
         return alert('Please provide a valid number');
     }
