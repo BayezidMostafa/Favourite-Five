@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>FAVOURITE FIVE PLAYER</title>
 </head>
@@ -13,8 +14,8 @@
     <!-- Header Area -->
     <header>
         <section class="text-center bg-[url(images/cover.jpg)] py-52 bg-cover">
-            <h1 class="text-orange-600 text-7xl font-bold pb-9">Choose your favourite 5</h1>
-            <p class="text-white text-2xl w-3/4 mx-auto">I have based my list on a variety of factors.
+            <h1 class="text-orange-600 text-7xl font-bold pb-9">Choose Your Favourite Five</h1>
+            <p class="text-white text-xl w-2/4 mx-auto">I have based my list on a variety of factors.
                 We have taken short-term form into account, but
                 particularly strong or weak 2021/22 seasons have been overlooked in many cases so that players with
                 a
@@ -23,8 +24,10 @@
     </header>
     <!-- Main Area -->
     <main class="text-white w-3/4 flex flex-row mx-auto">
+        <!-- Player Card Panel -->
         <section id="player-container" class="w-3/4 mx-auto py-24">
             <div class="grid grid-cols-3 gap-10 text-center">
+                <!-- Player Card - 01 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/1.jpg" alt="">
                     <h3 id="name-ronaldo" class="text-3xl font-medium py-4">Cristiano Ronaldo</h3>
@@ -32,10 +35,10 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 272</span>
                     <div class="text-center py-4">
-                        <button id="add-ronaldo"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
+                <!-- Player Card - 02 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/2.jpg" alt="">
                     <h3 id="name-messi" class="text-3xl font-medium py-4">Lionel Messi</h3>
@@ -43,10 +46,10 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 331</span>
                     <div class="text-center py-4">
-                        <button id="add-messi"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
+                <!-- Player Card - 03 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/3.jpg" alt="">
                     <h3 id="name-salah" class="text-3xl font-medium py-4">Mohamed Salah</h3>
@@ -54,10 +57,10 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 47</span>
                     <div class="text-center py-4">
-                        <button id="add-salah"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
+                <!-- Player Card - 04 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/4.jpg" alt="">
                     <h3 id="name-ronaldinho" class="text-3xl font-medium py-4">Ronaldinho Gaúcho</h3>
@@ -65,10 +68,10 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 84</span>
                     <div class="text-center py-4">
-                        <button id="add-ronaldinho"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
+                <!-- Player Card - 05 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/5.jpg" alt="">
                     <h3 id="name-neymar" class="text-3xl font-medium py-4">Neymar da Silva</h3>
@@ -76,10 +79,10 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 180</span>
                     <div class="text-center py-4">
-                        <button id="add-neymar"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
+                <!-- Player Card - 06 -->
                 <div class="border-2 border-gray-700 border-y-gray-800">
                     <img class="" src="images/6.jpg" alt="">
                     <h3 id="name-mbappe" class="text-3xl font-medium py-4">Kylian Mbappé</h3>
@@ -87,25 +90,28 @@
                     <span class="text-xl text-gray-400 mr-2">|</span>
                     <span class="text-xl text-gray-400">Assist: 50</span>
                     <div class="text-center py-4">
-                        <button id="add-mbappe"
-                            class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
+                        <button class="text-xl font-medium bg-blue-700 py-2 w-3/4 hover:bg-blue-600">SELECT</button>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Calculation Panel -->
         <section class="w-1/4">
             <div class="grid grid-rows-2 gap-10 ml-10">
+                <!-- Player List Panel -->
                 <div class="bg-black text-center mt-24">
                     <div class="mt-5">
-                        <h3 class="text-4xl font-medium">Selected</h3>
+                        <h3 class="text-4xl font-medium">Selected-V</h3>
                     </div>
-                    <div class="text-white mt-5">
+                    <div class="mt-5">
                         <div>
-                            <ul id="player-list-container" class="text-2xl text-left text-orange-500 ml-7">
+                            <ul id="player-list-container"
+                                class="list-decimal pl-6 text-2xl text-left font-medium leading-10 ml-7">
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!-- Player Valu and Total Cost Calculation -->
                 <div class="bg-black text-center">
                     <h3 class="text-4xl font-medium py-7">Budget</h3>
                     <div>
@@ -149,7 +155,7 @@
         <p class="text-xl text-center text-gray-400 mb-20">Copyright @ 2022 All Rights Reserved.</p>
     </footer>
 
-
+    <!-- All Script Files -->
     <script src="js/commonFunction.js"></script>
     <script src="js/playerList.js"></script>
     <script src="js/calculation.js"></script>
